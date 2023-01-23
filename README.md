@@ -1,4 +1,4 @@
-# Turborepo starter
+# Microservices starter (using Turborepo)
 
 This a *JavaScript* microservices setup based on Turborepo I use for quick prototyping of complex structures.
 
