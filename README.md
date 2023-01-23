@@ -9,7 +9,7 @@ This turborepo uses [npm](https://www.npmjs.com/) as a package manager. It inclu
 ### Apps and Packages
 
 - `apps/service-workers/task-runner`: a task runner using express and bee-queue
-- `apps/service-workers/task-monitor`: a task monitor app using bull-arena, bee-queue and expres
+- `apps/service-workers/task-monitor`: a task monitor app using bull-arena, bee-queue and express
 - `apps/service-workers/pdf-worker`: a sample service worker app
 - `apps/queue-workers/dummy-queue-worker`: a sample queue worker app
 - `apps/queue-workers/hello-queue-worker`: another sample queue worker app
