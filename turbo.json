@@ -1,0 +1,35 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": [
+    ".env"
+  ],
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", ".next/**"]
+    },
+    "lint": {
+      "outputs": []
+    },
+    "dev": {
+      "cache": false,
+      "dependsOn": ["^dev"],
+      "env": [
+        "PDF_WORKER_PORT",
+        "PDF_WORKER_HOST",
+
+        "TASK_RUNNER_PORT",
+        "TASK_RUNNER_HOST",
+
+        "TASK_MONITOR_PORT",
+        "TASK_MONITOR_HOST",
+
+        "BQ_REDIS_URL",
+        "BQ_REDIS_HOST",
+        "BQ_REDIS_PORT",
+        "BQ_REDIS_USER",
+        "BQ_REDIS_PASSWORD"
+      ]
+    }
+  }
+}
