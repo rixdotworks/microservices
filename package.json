@@ -2,6 +2,9 @@
   "name": "microservices",
   "version": "0.0.0",
   "private": true,
+  "bin": {
+    "microserv": "./packages/use-cli/bin/index.js"
+  },
   "workspaces": [
     "packages/*",
     "apps/**/*"
