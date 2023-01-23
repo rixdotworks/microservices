@@ -1,4 +1,4 @@
-const { createCommand } = require('commmander')
+const { createCommand } = require('commander')
 
 const program = createCommand()
 
